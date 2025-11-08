@@ -1,7 +1,7 @@
 import json
 
-notebook_file = "Facial Expression Recognition/Face_expression_recognition.ipynb"
-cleaned_file = "Facial Expression Recognition/Face_expression_recognition_notebook.ipynb"
+notebook_file = "Face_expression_recognition.ipynb"
+cleaned_file = "Face_expression_recognition_notebook.ipynb"
 
 with open(notebook_file, "r", encoding="utf-8") as f:
     data = json.load(f)
